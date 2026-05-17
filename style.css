@@ -51,10 +51,6 @@ header {
   color: var(--pink);
 }
 
-.logo-emoji {
-  font-size: 1.4rem;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -102,9 +98,7 @@ section {
   box-shadow: var(--shadow);
 }
 
-.avatar-emoji {
-  font-size: 3.5rem;
-}
+
 
 .hero h1 {
   font-size: 2.8rem;
@@ -191,12 +185,6 @@ section h2 {
   flex: 1 1 320px;
 }
 
-.about-emoji {
-  font-size: 2.5rem;
-  display: block;
-  margin-bottom: 0.5em;
-}
-
 .about-card h3 {
   font-size: 1.4rem;
   font-weight: 700;
@@ -256,6 +244,42 @@ section h2 {
 .tag-ps { background: #e0f4ff; color: #4e98e9;}
 .tag-arduino { background: #ffe6fa; color: #f1948a;}
 
+.leadership-container {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leadership-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 2em 1.5em;
+  max-width: 500px;
+  flex: 1 1 400px;
+  border-left: 4px solid var(--pink);
+}
+
+.leadership-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3em;
+  color: var(--pink);
+}
+
+.leadership-org {
+  font-size: 1rem;
+  color: #5c5f6a;
+  margin: 0 0 1em 0;
+  font-weight: 500;
+}
+
+.leadership-card p {
+  color: #5c5f6a;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
 .skills-grid {
   display: flex;
   gap: 2em;
@@ -271,11 +295,6 @@ section h2 {
   padding: 2em 1.3em;
   min-width: 220px;
   flex: 1 1 200px;
-}
-
-.skill-emoji {
-  font-size: 2.2rem;
-  margin-bottom: 0.4em;
 }
 
 .projects-grid {
@@ -296,11 +315,6 @@ section h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.project-emoji {
-  font-size: 2rem;
-  margin-bottom: 0.5em;
 }
 
 .project-card h3 {
@@ -351,12 +365,6 @@ section h2 {
   margin: 0 auto 2em auto;
   padding: 2.2em 2em 2em 2em;
   text-align: center;
-}
-
-.contact-card-icon span {
-  font-size: 2.3rem;
-  margin-bottom: 0.5em;
-  display: block;
 }
 
 .contact-card h3 {
@@ -449,12 +457,6 @@ footer {
 
 .footer-content p {
   margin: 0 0 0.6em 0;
-}
-
-.footer-icons span {
-  font-size: 1.4rem;
-  margin: 0 0.25em;
-  vertical-align: middle;
 }
 
 @media (max-width: 1050px) {
